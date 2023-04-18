@@ -13,21 +13,16 @@
             "endDate": "Actuality",
             "description": [
                 "Taking care of the Jenkins pipelines to deploy the services, monitor and troubleshoot any issue",
-                "that might arise that affecter either the continuous delivery or production.",
-                "Help developers on onboarding process of the projects into Spinnaker new deploy and release standards",
-                "for kubernetes.",
-                "Create ECS deployments with Jenkins",
-                "for web applications and microservices.",
-                "Monitor,",
-                "troubleshoot and fix the vulnerabilities found in the packages versions used in the projects.",
-                "Correct and prevent attacks configuring the redirection and protection of the web applications with Akamai.",
-                "Managing AWS infrastructure through IaC with Terraform.",
-                "Bash scripting to manage,",
-                "troubleshoot and automate process.common tasks across multiple instances.",
-                "Keep updated packages and dependencies on instances in order to fix vulnerabilities.",
-                "Mentoring new team members on the common tasks from the team,",
-                "and also providing knowledge transfer over the applications stack.",
-                "Collaborate with the implementation of new technologies like CDK as new IaC framework."
+                "that might arise that affecter either the continuous delivery or production. ",
+                "Help developers on onboarding process of the projects into Spinnaker new deploy and release standards for kubernetes. ",
+                "Create ECS deployments with Jenkins for web applications and microservices. ",
+                "Monitor, troubleshoot and fix the vulnerabilities found in the packages versions used in the projects. ",
+                "Correct and prevent attacks configuring the redirection and protection of the web applications with Akamai. ",
+                "Managing AWS infrastructure through IaC with Terraform. ",
+                "Bash scripting to manage, troubleshoot and automate process.common tasks across multiple instances. ",
+                "Keep updated packages and dependencies on instances in order to fix vulnerabilities. ",
+                "Mentoring new team members on the common tasks from the team, and also providing knowledge transfer over the applications stack. ",
+                "Collaborate with the implementation of new technologies like CDK as new IaC framework. "
             ]
         },
         {
@@ -37,8 +32,41 @@
             "endDate": "03/01/2021",
             "description": [
                 "Developed an ETL workflow to interconnect a third party tool and provide data using Serverless to build the Step Functions",
-                "to orchestrate several Node Js AWS Lambdas over AWS,",
-                "Used docker-compose to generate a template to emulate AWS locally using Localstack."
+                "to orchestrate several Node Js AWS Lambdas over AWS, ",
+                "Used docker-compose to generate a template to emulate AWS locally using Localstack. "
+            ]
+        },
+        {
+            "company": "Tyson Foods",
+            "title": "Developer Applications - CI CD Orchestration Team",
+            "startDate": "09/20/2020",
+            "endDate": "12/24/2020",
+            "description": [
+                "Worked providing technical leading over AWS resources integration with the current applications and integrating it with new developments. ",
+                "Developed infrastructure as code using Terraform for AWS resources as RDS, S3, Lambda, Cloud Watch, API Gateway, Glue, Athena with Terraform. ",
+                "Creating reusable templates for different use cases and automating the implementation process. ",
+                "Provided guidance for the correct use of Git as a versioning tool and defining the branching strategies to help in the CI/CD process to reduce and improve the features delivery time frame. ",
+                "Performed maintenance and updating Gitlab CI scripts to be implemented to deploy AWS Lambda functions using Serverless. ",
+                "Translating Cloud Formation scripts to Terraform. ",
+                "Used CloudWatch to keep visibility of a Glue workflow and Lambdas execution, also integrated Event Rules to handle the executions by a schedule. ",
+                "Created Terraform scripts to create an infrastructure that allows to secure internal APIs to be used externally. ",
+                "Used docker to create images from scratch to create containerized APIs, Web Apps. ",
+                "Added shell scripts to run the setup stage on the pipelines, installing and initializing the components as npm and Terraform as needed. "
+            ]
+        },
+        {
+            "company": "Tyson Foods",
+            "title": "Developer Applications - Live Production Team",
+            "startDate": "08/16/2018",
+            "endDate": "09/19/2020",
+            "description": [
+                "Performed enhancements for applications with VB and C# and bug fixes reducing the incidents and issues for the users. ",
+                "Developed and deployed Node Js AWS Lambdas using Terraform and Serverless to provide data feed for mobile and web applications. ",
+                "Developed containerized Node Js microservices and REST APIs for mobile and web applications using Docker and Kubernetes over AWS EKS. ",
+                "Developed features and updates for cloud web apps built with React JS and Node JS. ",
+                "Performed deployments from Dev to Prod using Jenkins, by setting up the groovy script for the pipelines implementation and providing support and maintenance to the existing pipelines across several cloud native projects in the organization. ",
+                "Configured VPC, Security Groups, Roles and Policies as needed for the resources over AWS. ",
+                "Used splunk to track the logs of kubernetes jobs and APIs executions. "
             ]
         }
     ]

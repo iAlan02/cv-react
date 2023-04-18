@@ -1,55 +1,70 @@
+/* Default styles */
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
 }
 
-
-/* Encabezado */
-
 header {
-    background-color: #b0e4f4;
-    padding: 20px;
+    background-color: rgb(212, 253, 251);
+    padding: 50px 20px;
     text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
     margin: 0;
-    font-size: 36px;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #195762;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 header p {
     margin: 0;
-    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #195762;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-
-/* Secciones */
-
 section {
-    border: #195762;
-    border-radius: 10%;
-    border-style: ridge;
-    margin: 10px 10px;
+    border: 8px solid aqua;
+    border-radius: 10px;
+    margin: 50px 10%;
+    background-color: #195762;
     color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 section h2 {
-    font-size: 24px;
-    margin: 20px 45px;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 20px 50px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 section h3 {
-    font-size: 20px;
-    margin: 10px 45px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 50px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+section h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 50px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 section ul {
     list-style: none;
     padding: 0;
-    margin: 20px 45px;
+    margin: 20px 50px;
 }
 
 section li {
@@ -57,19 +72,53 @@ section li {
 }
 
 section p {
-    margin-bottom: 10px;
+    margin: 20px 10%;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: justify;
 }
-
-
-/* Pie de página */
 
 footer {
     background-color: #000000;
-    padding: 20px;
+    padding: 50px 20px;
     text-align: center;
+    color: #fff;
 }
 
 footer p {
     margin: 0;
-    font-size: 14px;
+    font-size: 1.5rem;
+}
+
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+    }
+    header p {
+        font-size: 1.5rem;
+    }
+    section {
+        margin: 50px 5%;
+    }
+    section h2 {
+        font-size: 2rem;
+        margin: 10px 20px;
+    }
+    section h3 {
+        font-size: 1.5rem;
+        margin: 10px 20px;
+    }
+    section ul {
+        margin: 10px 20px;
+    }
+    section p {
+        margin: 20px 5%;
+        font-size: 1.2rem;
+    }
+    footer p {
+        font-size: 1.2rem;
+    }
 }
