@@ -1,0 +1,13 @@
+section h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 20px 50px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin: 20px 10%;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: justify;
+}
