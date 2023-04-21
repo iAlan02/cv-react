@@ -7,16 +7,15 @@ const ExperienceItem = (props) => {
       className="container"
       whileHover={{ scale: 1.2, rotate: 90 }}
       whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
+      onClick={props.modalHandler}
     >
-      <Link to={props.title}>
-        <li className={classes.card}>
-          <p className={classes.author}>{props.title}</p>
-          <p className={classes.text}>{props.company}</p>
-          <p>
-            {props.startDate} - {props.endDate}
-          </p>
-        </li>
-      </Link>
+      <li className={classes.card}>
+        <p className={classes.author}>{props.title}</p>
+        <p className={classes.text}>{props.company}</p>
+        <p>
+          {props.startDate} - {props.endDate}
+        </p>
+      </li>
     </motion.div>
   );
 };

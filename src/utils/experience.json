@@ -7,6 +7,7 @@
         "email": "alan_antoniorc@outlook.com"
     },
     "experience": [{
+            "id": 1,
             "company": "Luxoft",
             "title": "DevOps",
             "startDate": "07/19/2021",
@@ -26,6 +27,7 @@
             ]
         },
         {
+            "id": 2,
             "company": "Softtek",
             "title": "Software Developer",
             "startDate": "07/16/2021",
@@ -37,6 +39,7 @@
             ]
         },
         {
+            "id": 3,
             "company": "Tyson Foods",
             "title": "Developer Applications - CI CD Orchestration Team",
             "startDate": "09/20/2020",
@@ -55,6 +58,7 @@
             ]
         },
         {
+            "id": 4,
             "company": "Tyson Foods",
             "title": "Developer Applications - Live Production Team",
             "startDate": "08/16/2018",
