@@ -12,7 +12,7 @@ const ExperienceItem = (props) => {
       <li className={classes.card}>
         <p className={classes.author}>{props.title}</p>
         <p className={classes.text}>{props.company}</p>
-        <p>
+        <p className={classes.author}>
           {props.startDate} - {props.endDate}
         </p>
       </li>
