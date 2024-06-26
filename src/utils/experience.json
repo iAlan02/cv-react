@@ -9,10 +9,39 @@
     "experience": [
         {
             "id": 1,
+            "company": "GBG PLC",
+            "title": "Senior DevOps Engineer",
+            "startDate": "January 2024",
+            "endDate": "Today",
+            "description": [
+                "Collaborate on migration into EKS.",
+                "Automate services recovery. ",
+                "Process documentation. ",
+                "Monitoring and troubleshooting. ",
+                "Upgrade and migrate servers. "
+            ]
+        },
+        {
+            "id": 3,
+            "company": "Luxoft",
+            "title": "Senior DevOps Engineer",
+            "startDate": "September 2023",
+            "endDate": "December 2023",
+            "description": [
+                "Orchestrate and create CI with Harness. ",
+                "Create and manage infrastructure with Terraform. ",
+                "Deploy applications and services on ECS. ",
+                "Develop python functions to manage data with AWS Lambda and SQS. ",
+                "Administrate and generate infrastructure with Terraform ",
+                "Manage CI process with Drone CI. "
+            ]
+        },
+        {
+            "id": 4,
             "company": "Luxoft",
             "title": "DevOps",
             "startDate": "July 2021",
-            "endDate": "Today",
+            "endDate": "August 2023",
             "description": [
                 "Maintaining Jenkins deployments across DEV, QA and PROD environments. ",
                 "Monitoring and troubleshooting vulnerabilities in the packages versions used in the projects. ",
@@ -25,7 +54,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 5,
             "company": "Softtek",
             "title": "Software Developer",
             "startDate": "January 2021",
@@ -36,7 +65,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 6,
             "company": "Tyson Foods",
             "title": "Developer Applications - CI CD Orchestration Team",
             "startDate": "October 2020",
@@ -54,7 +83,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 7,
             "company": "Tyson Foods",
             "title": "Developer Applications - Live Production Team",
             "startDate": "August 2018",
