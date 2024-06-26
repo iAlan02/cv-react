@@ -10,7 +10,7 @@
         {
             "id": 1,
             "company": "GBG PLC",
-            "title": "Senior DevOps Engineer",
+            "title": "Senior DevOps",
             "startDate": "January 2024",
             "endDate": "Today",
             "description": [
@@ -24,7 +24,7 @@
         {
             "id": 3,
             "company": "Luxoft",
-            "title": "Senior DevOps Engineer",
+            "title": "Senior DevOps",
             "startDate": "September 2023",
             "endDate": "December 2023",
             "description": [
@@ -96,6 +96,18 @@
                 "Performed deployments from Dev to Prod using Jenkins, by setting up the groovy script for the pipelines implementation and providing support and maintenance to those across several cloud native projects in the organization. ",
                 "Configured VPC, Security Groups, Roles and Policies as needed over AWS. ",
                 "Tracked splunk logs from kubernetes jobs and APIs executions. "
+            ]
+        },
+        {
+            "id": 8,
+            "company": "Abacus IT",
+            "title": "Java Developer",
+            "startDate": "July 2017",
+            "endDate": "August 2018",
+            "description": [
+                "Developed Java EE web applications. ",
+                "Designed and managed SQL databases. ",
+                "Provided technical and user support as needed. "
             ]
         }
     ]
