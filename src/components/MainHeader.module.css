@@ -1,11 +1,19 @@
 header {
-    background-color: rgb(212, 253, 251);
+    background-color: #00000000;
     padding: 50px 20px;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px #00000033;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #ffffff;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
 }
